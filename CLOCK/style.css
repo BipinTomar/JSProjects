@@ -30,9 +30,9 @@
   .hand {
     position: absolute;
     top: 50%;
-    left: 50%;
+    left:50%;
     transform-origin: left;
-    transform: rotate(90deg) translateY(-50%);
+    transform: rotate(90deg);
     transition: all 0.05s ease-in-out;
   }
   
