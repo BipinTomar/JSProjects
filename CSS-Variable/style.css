@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+ body {
+      font-family: sans-serif;
+      padding: 2rem;
+      background: #f4f4f4;
+      align:center;
+    }
+:root{
+ --base : #ffc600;
+  --spacing: 10px;
+  --blur: 10px;
+}
+
+h2 {
+      margin-bottom: 1rem;
+    }
+
+    .hl {
+      color: var(--base);
+    }
+
+    .controls {
+      margin-bottom: 20px;
+      max-width: 400px;
+    }
+
+    .controls label {
+      display: block;
+      margin-top: 1rem;
+      font-weight: bold;
+    }
+
+    .controls input {
+      width: 100%;
+      margin-top: 0.5rem;
+    }
+
+    img {
+      display: block;
+      max-width: 100%;
+      padding: var(--spacing);
+      background: var(--base);
+      filter: blur(var(--blur));
+    }
